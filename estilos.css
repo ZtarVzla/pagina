@@ -1,0 +1,60 @@
+@import url('menu.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+header{
+    height: 53px;
+    background: #0d24a3;
+    color: white;
+}
+
+.contenedor{
+    width: 95%;
+    margin: auto;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contenedor img{
+    width: 95%;
+    max-width: 90px;
+    margin-top: 4px;
+}
+
+.titulo, .info{
+    text-align: center;
+    color: rgba(15, 23, 70, 0.959);
+}
+
+.titulo h2, .info h2{
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.banner img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(15, 23, 70, 0.959);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: #0d24a3;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+
+}
